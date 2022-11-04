@@ -356,7 +356,7 @@ func ExtBrowse(opts ExtBrowseOpts) error {
 
 	help := tview.NewTextView()
 	help.SetText(
-		"/: filter i/r: install/remove w: open in browser pgup/pgdn: scroll readme q: quit")
+		"/: filter  i/r: install/remove  w: open in browser  pgup/pgdn: scroll readme  q: quit")
 	help.SetTextAlign(tview.AlignCenter)
 
 	ui := uiRegistry{
